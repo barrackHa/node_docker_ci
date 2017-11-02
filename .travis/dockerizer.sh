@@ -1,7 +1,5 @@
 #!/bin/sh
 
-env | grep -i travis
-
 DOCKER_REPO=barakci
 
 DOCKER_NAME=$DOCKER_USERNAME/$DOCKER_REPO
