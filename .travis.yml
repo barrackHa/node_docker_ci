@@ -13,4 +13,3 @@ after_success:
  - docker build -t barakh1985/barakci .
  - docker run -d -p 8080:8080 barakh1985/barakci
  - docker ps
- - sh .travis/curl_container.sh
